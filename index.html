@@ -12,6 +12,12 @@
     /*html,body {
       width: 100%;
     }*/
+    .jumbotron {
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100vh;
+}
     .carousel {width:100%; height:1000px; overflow:hidden;}
   /* Make the image fully responsive */
   /*.carousel-inner img {
@@ -20,7 +26,9 @@
   </style>
 </head>
 <body>
+  
 <!--<div class="container">-->
+  <div class="jumbotron jumbotron-fluid">
 <div id="demo" class="carousel slide d-flex align-items-center justify-content-center min-vh-10" data-ride="carousel">
 
   <!-- Indicators -->
@@ -52,7 +60,7 @@
   </a>
 
 </div>
-  
+  </div>
 <div id="section1" class="container-fluid bg-success min-vh-100" style="padding-top:70px;padding-bottom:70px">
   <h1>Section 1</h1>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
