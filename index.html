@@ -9,31 +9,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <style>
-    /*html,body {
-      width: 100%;
-    }*/
-    #top {
-      top: 0; 
-    left: 0; 
-    min-width: 100%;
-    min-height: 100vh;
-      overflow:hidden;
-    }
     .carousel {
       width: 100%;
       height: 1000px;
       overflow:hidden;
     }
-  /* Make the image fully responsive */
-  /*.carousel-inner img {
-      width: 100%;
-  }*/
   </style>
 </head>
 <body>
-  
-<!--<div class="container">-->
-<div id="top">
 <div id="demo" class="carousel slide d-flex align-items-center justify-content-center min-vh-10" data-ride="carousel">
 
   <!-- Indicators -->
@@ -65,7 +48,30 @@
   </a>
 
 </div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">Navbar</a>
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li> 
+    </ul>
   </div> 
+</nav>
 <div id="section1" class="container-fluid bg-success min-vh-100" style="padding-top:70px;padding-bottom:70px">
   <h1>Section 1</h1>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
